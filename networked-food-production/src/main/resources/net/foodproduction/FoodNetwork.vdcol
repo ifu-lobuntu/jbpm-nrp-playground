@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
   <VDML:ValueDeliveryModel name="FoodNetworkValueDeliveryModel">
     <capabilitylibrary xsi:type="VDML:CapabilityLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAcl"/>
     <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
-      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="FreshProduce" id="_qIEkIHb8EeW2AoEAbbWdmA"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="FreshProduce" id="_qIEkIHb8EeW2AoEAbbWdmA">
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_4B0488D4-612D-4B39-A9D8-86A695C0D522trait"/>
+      </businessItemLibraryElement>
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Order" id="_LhDIwHcCEeW2AoEAbbWdmA"/>
     </businessItemLibrary>
     <collaboration xsi:type="VDML:OrgUnit" name="FoodNetwork" id="FoodNetwork">
@@ -32,6 +34,10 @@
     </collaboration>
     <storeLibrary xsi:type="VDML:StoreLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
       <storeDefinitions xsi:type="VDML:StoreDefinition" name="Garden" id="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition">
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_4A2278DC-D368-4751-8FB6-F63ACA6B8C4Dtrait"/>
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_421E80F4-1C64-484F-8A91-AED0778F2AC2trait"/>
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_AFC55443-B52F-4BF5-B1C2-F14D2CC9510Ftrait"/>
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_40F5C10E-2A1B-498F-AF18-44F7E8666EE6trait"/>
         <exchangeConfiguration xsi:type="VDML:ExchangeConfiguration">
           <exchangeMethod xsi:type="VDML:CapabilityMethod" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#OrderFreshProduce"/>
           <supplierRole xsi:type="VDML:Performer" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#_58341825-2CB8-445F-A4C0-3391F877ECFD"/>
@@ -42,12 +48,42 @@
   <uml:Package xmi:id="_0SlFwHb7EeW2AoEAbbWdmA" name="foodnetwork">
     <packagedElement xsi:type="uml:Class" xmi:id="_qIFLMXb8EeW2AoEAbbWdmA" name="FreshProduce">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_qIEkIHb8EeW2AoEAbbWdmA"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_LEOXIHc0EeWYt_8hY_ngHA" name="ProjectedYieldPerSquareMetre">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_4B0488D4-612D-4B39-A9D8-86A695C0D522trait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_LhDIx3cCEeW2AoEAbbWdmA" name="Order">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_LhDIwHcCEeW2AoEAbbWdmA"/>
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_3X0ssHctEeWYt_8hY_ngHA" name="Garden">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_LEOXIXc0EeWYt_8hY_ngHA" name="GardenSize">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_4A2278DC-D368-4751-8FB6-F63ACA6B8C4Dtrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_LEOXInc0EeWYt_8hY_ngHA" name="GardenYieldPotential">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_421E80F4-1C64-484F-8A91-AED0778F2AC2trait"/>
+        </eAnnotations>
+        <type xsi:type="uml:Enumeration" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_421E80F4-1C64-484F-8A91-AED0778F2AC2MEAS"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_LEOXI3c0EeWYt_8hY_ngHA" name="ProjectedMaximumYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_AFC55443-B52F-4BF5-B1C2-F14D2CC9510Ftrait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_LEOXJHc0EeWYt_8hY_ngHA" name="ProjectedYield">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_40F5C10E-2A1B-498F-AF18-44F7E8666EE6trait"/>
+        </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
     </packagedElement>
   </uml:Package>
 </xmi:XMI>
