@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<umldi:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI" xmi:id="_qZ9vIHctEeWYt_8hY_ngHA">
+  <umlElement xsi:type="uml:Package" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/FoodNetwork.vdcol#_0SlFwHb7EeW2AoEAbbWdmA"/>
+</umldi:UMLDiagram>
