@@ -30,7 +30,10 @@
         </eAnnotations>
         <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
       </ownedAttribute>
-      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAoHcNEeW2AoEAbbWdmA" name="shoppingBasket" type="_PddS9XcNEeW2AoEAbbWdmA" association="_PdkAqncNEeW2AoEAbbWdmA"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAoHcNEeW2AoEAbbWdmA" name="shoppingBasket" type="_PddS9XcNEeW2AoEAbbWdmA" association="_PdkAqncNEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_SHMbsHcVEeW2AoEAbbWdmA" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_SHMbsXcVEeW2AoEAbbWdmA" value="1"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_38t3YHcKEeW2AoEAbbWdmA" name="Product">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_38t3YHcKEeW2AoEAbbWdmABusinessItemDefinition"/>
@@ -54,7 +57,10 @@
         <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_38yI1XcKEeW2AoEAbbWdmA" value="1"/>
         <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_38yI1ncKEeW2AoEAbbWdmA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI13cKEeW2AoEAbbWdmA" name="order" type="_38tQUHcKEeW2AoEAbbWdmA" association="_38yI2ncKEeW2AoEAbbWdmA"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI13cKEeW2AoEAbbWdmA" name="order" type="_38tQUHcKEeW2AoEAbbWdmA" association="_38yI2ncKEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_SHMbsncVEeW2AoEAbbWdmA" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_SHMbs3cVEeW2AoEAbbWdmA" value="1"/>
+      </ownedAttribute>
       <ownedAttribute xsi:type="uml:Property" xmi:id="_fWKGcHcMEeW2AoEAbbWdmA" name="LineItemPrice">
         <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
           <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_3E4808A7-63C8-473C-A4BB-0775E90498A3trait"/>
@@ -64,7 +70,10 @@
     </packagedElement>
     <packagedElement xsi:type="uml:Association" xmi:id="_38yI2HcKEeW2AoEAbbWdmA" memberEnd="_38yI2XcKEeW2AoEAbbWdmA _38yI1HcKEeW2AoEAbbWdmA">
       <name xsi:nil="true"/>
-      <ownedEnd xsi:type="uml:Property" xmi:id="_38yI2XcKEeW2AoEAbbWdmA" name="lineItem" type="_38t3YXcKEeW2AoEAbbWdmA" association="_38yI2HcKEeW2AoEAbbWdmA"/>
+      <ownedEnd xsi:type="uml:Property" xmi:id="_38yI2XcKEeW2AoEAbbWdmA" name="lineItem" type="_38t3YXcKEeW2AoEAbbWdmA" association="_38yI2HcKEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_SHMbtHcVEeW2AoEAbbWdmA" value="*"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_SHMbtXcVEeW2AoEAbbWdmA"/>
+      </ownedEnd>
     </packagedElement>
     <packagedElement xsi:type="uml:Association" xmi:id="_38yI2ncKEeW2AoEAbbWdmA" memberEnd="_38yI13cKEeW2AoEAbbWdmA _38yI0HcKEeW2AoEAbbWdmA">
       <name xsi:nil="true"/>
@@ -93,7 +102,10 @@
     </packagedElement>
     <packagedElement xsi:type="uml:Association" xmi:id="_PdkArHcNEeW2AoEAbbWdmA" memberEnd="_PdkArXcNEeW2AoEAbbWdmA _PdkAoncNEeW2AoEAbbWdmA">
       <name xsi:nil="true"/>
-      <ownedEnd xsi:type="uml:Property" xmi:id="_PdkArXcNEeW2AoEAbbWdmA" name="product" type="_38t3YHcKEeW2AoEAbbWdmA" association="_PdkArHcNEeW2AoEAbbWdmA"/>
+      <ownedEnd xsi:type="uml:Property" xmi:id="_PdkArXcNEeW2AoEAbbWdmA" name="product" type="_38t3YHcKEeW2AoEAbbWdmA" association="_PdkArHcNEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_SHMbtncVEeW2AoEAbbWdmA" value="*"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_SHMbt3cVEeW2AoEAbbWdmA"/>
+      </ownedEnd>
     </packagedElement>
   </uml:Package>
 </xmi:XMI>
