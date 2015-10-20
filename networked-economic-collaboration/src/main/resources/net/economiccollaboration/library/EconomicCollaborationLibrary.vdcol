@@ -9,6 +9,7 @@
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Product" id="_38t3YHcKEeW2AoEAbbWdmABusinessItemDefinition"/>
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="LineItem" id="_38t3YXcKEeW2AoEAbbWdmABusinessItemDefinition">
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_111F7F15-8AA7-48BF-843D-0EF7B4970615trait"/>
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_3E4808A7-63C8-473C-A4BB-0775E90498A3trait"/>
       </businessItemLibraryElement>
     </businessItemLibrary>
     <collaboration xsi:type="VDML:BusinessNetwork" name="EconomicCollaborationLibrary" id="EconomicCollaborationLibrary"/>
@@ -43,6 +44,11 @@
         <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_38yI1ncKEeW2AoEAbbWdmA"/>
       </ownedAttribute>
       <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI13cKEeW2AoEAbbWdmA" name="order" type="_38tQUHcKEeW2AoEAbbWdmA" association="_38yI2ncKEeW2AoEAbbWdmA"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_fWKGcHcMEeW2AoEAbbWdmA" name="LineItemPrice">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_3E4808A7-63C8-473C-A4BB-0775E90498A3trait"/>
+        </eAnnotations>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xsi:type="uml:Association" xmi:id="_38yI2HcKEeW2AoEAbbWdmA" memberEnd="_38yI2XcKEeW2AoEAbbWdmA _38yI1HcKEeW2AoEAbbWdmA">
       <name xsi:nil="true"/>
