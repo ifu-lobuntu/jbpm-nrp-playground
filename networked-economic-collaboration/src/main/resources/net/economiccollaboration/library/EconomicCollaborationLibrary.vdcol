@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <VDML:ValueDeliveryModel name="EconomicCollaborationLibraryValueDeliveryModel">
+    <collaboration xsi:type="VDML:BusinessNetwork" name="EconomicCollaborationLibrary" id="EconomicCollaborationLibrary"/>
+  </VDML:ValueDeliveryModel>
+  <uml:Package xmi:id="_moHjEHcKEeW2AoEAbbWdmA" name="economiccollaborationlibrary"/>
+</xmi:XMI>
