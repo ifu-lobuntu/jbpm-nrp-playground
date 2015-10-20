@@ -2,231 +2,231 @@
 <umldi:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umldi="http://www.omg.org/spec/UML/20131201/DI" xmi:id="_m-L5sHcKEeW2AoEAbbWdmA">
   <umlElement xsi:type="uml:Package" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_moHjEHcKEeW2AoEAbbWdmA"/>
   <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_38YgM3cKEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tdysXcREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__teZwXcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__tdys3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__teZwHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBYzQXcTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBYzRXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBYzQ3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBYzRHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" xmi:id="__tdysncREeW2AoEAbbWdmA" x="105.0" y="210.0" width="120.0" height="116.0"/>
+    <bounds xsi:type="DC:Bounds" xmi:id="_PBYzQncTEeW2AoEAbbWdmA" x="105.0" y="210.0" width="120.0" height="116.0"/>
     <umlElement xsi:type="uml:Class" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_38tQUHcKEeW2AoEAbbWdmA"/>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_38YgOncKEeW2AoEAbbWdmA" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="characteristicDefinition">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__teZw3cREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__teZx3cREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__teZxXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__teZxncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBZaUXcTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBZaVXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBZaU3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBZaVHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__teZxHcREeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="46.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBZaUncTEeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="46.0"/>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_NRxT8XcMEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__teZyXcREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__tr1IXcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__teZy3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__tr1IHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBZaV3cTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBqgEXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBZaWXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBqgEHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__teZyncREeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBZaWHcTEeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_NSKVgHcMEeW2AoEAbbWdmA"/>
       </ownedShape>
     </ownedCompartment>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_48TFEHcKEeW2AoEAbbWdmA" isExpanded="true" featureName="ownedAttribute">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tscMXcREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__tscNXcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tscM3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tscNHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBqgE3cTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBrHIncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBrHIHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBrHIXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tscMncREeW2AoEAbbWdmA" x="1.0" y="76.0" width="118.0" height="25.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBqgFHcTEeW2AoEAbbWdmA" x="1.0" y="76.0" width="118.0" height="25.0"/>
     </ownedCompartment>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_38ZHQ3cKEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tscN3cREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__tscO3cREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__tscOXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__tscOncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBrHJHcTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBrHKHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBrHJncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBrHJ3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" xmi:id="__tscOHcREeW2AoEAbbWdmA" x="480.0" y="462.0" width="120.0" height="116.0"/>
+    <bounds xsi:type="DC:Bounds" xmi:id="_PBrHJXcTEeW2AoEAbbWdmA" x="480.0" y="462.0" width="120.0" height="116.0"/>
     <umlElement xsi:type="uml:Class" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_38t3YHcKEeW2AoEAbbWdmA"/>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_38ZHSncKEeW2AoEAbbWdmA" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="characteristicDefinition">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tscPXcREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__tscQXcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tscP3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tscQHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBrHKncTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBrHLncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBrHLHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBrHLXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tscPncREeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="25.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBrHK3cTEeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="25.0"/>
     </ownedCompartment>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_48TFEncKEeW2AoEAbbWdmA" isExpanded="true" featureName="ownedAttribute">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tscQ3cREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__ttDQHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tscRXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tscRncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBrHMHcTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBrHNHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBrHMncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBrHM3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tscRHcREeW2AoEAbbWdmA" x="1.0" y="55.0" width="118.0" height="46.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBrHMXcTEeW2AoEAbbWdmA" x="1.0" y="55.0" width="118.0" height="46.0"/>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_PdRFs3cNEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttDQncREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__ttDRncREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__ttDRHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__ttDRXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBrHNncTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBrHOncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBrHOHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBrHOXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__ttDQ3cREeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBrHN3cTEeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PdkAoXcNEeW2AoEAbbWdmA"/>
       </ownedShape>
     </ownedCompartment>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_38ZHUXcKEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttDSHcREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__ttDTHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__ttDSncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__ttDS3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBrHPHcTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBruMXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBrHPncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBruMHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" xmi:id="__ttDSXcREeW2AoEAbbWdmA" x="165.0" y="420.0" width="120.0" height="137.0"/>
+    <bounds xsi:type="DC:Bounds" xmi:id="_PBrHPXcTEeW2AoEAbbWdmA" x="135.0" y="451.5" width="120.0" height="137.0"/>
     <umlElement xsi:type="uml:Class" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_38t3YXcKEeW2AoEAbbWdmA"/>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_38ZuVXcKEeW2AoEAbbWdmA" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="characteristicDefinition">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttDTncREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__ttDUncREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__ttDUHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__ttDUXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBruM3cTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBruN3cTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBruNXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBruNncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__ttDT3cREeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="67.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBruNHcTEeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="67.0"/>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_38ZuXHcKEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttDVHcREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__ttDWHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__ttDVncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__ttDV3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBruOXcTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBruPXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBruO3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBruPHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__ttDVXcREeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBruOncTEeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_38yI03cKEeW2AoEAbbWdmA"/>
       </ownedShape>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_fV_uY3cMEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttqUXcREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__ttqVXcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__ttqU3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__ttqVHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBruP3cTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBruQ3cTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBruQXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBruQncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__ttqUncREeW2AoEAbbWdmA" x="1.0" y="36.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBruQHcTEeW2AoEAbbWdmA" x="1.0" y="36.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_fWKGcHcMEeW2AoEAbbWdmA"/>
       </ownedShape>
     </ownedCompartment>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_48TFFHcKEeW2AoEAbbWdmA" isExpanded="true" featureName="ownedAttribute">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttqV3cREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__ttqW3cREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__ttqWXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__ttqWncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBruRXcTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBsVQHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBruR3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBruSHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__ttqWHcREeW2AoEAbbWdmA" x="1.0" y="97.0" width="118.0" height="25.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBruRncTEeW2AoEAbbWdmA" x="1.0" y="97.0" width="118.0" height="25.0"/>
     </ownedCompartment>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_38qNAncKEeW2AoEAbbWdmA" sourceShape="_38ZHUXcKEeW2AoEAbbWdmA" targetShape="_38ZHQ3cKEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttqXXcREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__ttqYHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__ttqXncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__ttqX3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBsVQncTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBsVRXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBsVQ3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBsVRHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <waypoint xsi:type="DC:Point" xmi:id="__twtoHcREeW2AoEAbbWdmA" x="225.0" y="488.5"/>
-    <waypoint xsi:type="DC:Point" xmi:id="__twtoXcREeW2AoEAbbWdmA" x="540.0" y="520.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBuxgHcTEeW2AoEAbbWdmA" x="195.0" y="520.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBuxgXcTEeW2AoEAbbWdmA" x="540.0" y="520.0"/>
     <umlElement xsi:type="uml:Association" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_38yI2HcKEeW2AoEAbbWdmA"/>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_38q0EncKEeW2AoEAbbWdmA" sourceShape="_38YgM3cKEeW2AoEAbbWdmA" targetShape="_38ZHUXcKEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttqYncREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__ttqZXcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__ttqY3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__ttqZHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBsVR3cTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBsVSncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBsVSHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBsVSXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <waypoint xsi:type="DC:Point" xmi:id="__twtoncREeW2AoEAbbWdmA" x="165.0" y="268.0"/>
-    <waypoint xsi:type="DC:Point" xmi:id="__twto3cREeW2AoEAbbWdmA" x="225.0" y="488.5"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBuxgncTEeW2AoEAbbWdmA" x="165.0" y="268.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBuxg3cTEeW2AoEAbbWdmA" x="195.0" y="520.0"/>
     <umlElement xsi:type="uml:Association" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_38yI2ncKEeW2AoEAbbWdmA"/>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_PdUJAXcNEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__ttqZ3cREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__tuRYncREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__tuRYHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__tuRYXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBsVTHcTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBsVUHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBsVTncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBsVT3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" xmi:id="__ttqaHcREeW2AoEAbbWdmA" x="45.0" width="120.0" height="137.0"/>
+    <bounds xsi:type="DC:Bounds" xmi:id="_PBsVTXcTEeW2AoEAbbWdmA" x="45.0" width="120.0" height="137.0"/>
     <umlElement xsi:type="uml:Class" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PddS9XcNEeW2AoEAbbWdmA"/>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_PdUJCHcNEeW2AoEAbbWdmA" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="ownedAttribute">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tuRZHcREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__tuRaHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tuRZncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tuRZ3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBsVUncTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBsVVncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBsVVHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBsVVXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tuRZXcREeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="67.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBsVU3cTEeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="67.0"/>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_PdUwE3cNEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tuRancREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__tuRbncREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__tuRbHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__tuRbXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBsVWHcTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBsVXHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBsVWncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBsVW3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__tuRa3cREeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBsVWXcTEeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PdkApXcNEeW2AoEAbbWdmA"/>
       </ownedShape>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_PdVXI3cNEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tuRcHcREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__tuRdHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__tuRcncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__tuRc3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBs8UXcTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBs8VXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBs8U3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBs8VHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__tuRcXcREeW2AoEAbbWdmA" x="1.0" y="36.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBs8UncTEeW2AoEAbbWdmA" x="1.0" y="36.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PdkApncNEeW2AoEAbbWdmA"/>
       </ownedShape>
     </ownedCompartment>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_x8hIIHcNEeW2AoEAbbWdmA" isExpanded="true" featureName="characteristicDefinition">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tuRdncREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__tuRencREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tuReHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tuReXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBs8V3cTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBs8W3cTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBs8WXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBs8WncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tuRd3cREeW2AoEAbbWdmA" x="1.0" y="97.0" width="118.0" height="25.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBs8WHcTEeW2AoEAbbWdmA" x="1.0" y="97.0" width="118.0" height="25.0"/>
     </ownedCompartment>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_PdV-MncNEeW2AoEAbbWdmA" sourceShape="_PdUJAXcNEeW2AoEAbbWdmA" targetShape="_38YgM3cKEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tuRfHcREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__tu4cHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__tuRfXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__tuRfncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBs8XXcTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBs8YHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBs8XncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBs8X3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <waypoint xsi:type="DC:Point" xmi:id="__twtpHcREeW2AoEAbbWdmA" x="105.0" y="68.5"/>
-    <waypoint xsi:type="DC:Point" xmi:id="__twtpXcREeW2AoEAbbWdmA" x="165.0" y="268.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBvYkHcTEeW2AoEAbbWdmA" x="105.0" y="68.5"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBvYkXcTEeW2AoEAbbWdmA" x="165.0" y="268.0"/>
     <umlElement xsi:type="uml:Association" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PdkAqncNEeW2AoEAbbWdmA"/>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLShape" xmi:id="_PdXMU3cNEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tu4cncREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__tu4dncREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__tu4dHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__tu4dXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBs8YncTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBs8ZncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBs8ZHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBs8ZXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" xmi:id="__tu4c3cREeW2AoEAbbWdmA" x="855.0" y="420.0" width="120.0" height="116.0"/>
+    <bounds xsi:type="DC:Bounds" xmi:id="_PBs8Y3cTEeW2AoEAbbWdmA" x="855.0" y="420.0" width="120.0" height="116.0"/>
     <umlElement xsi:type="uml:Class" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_Pdd6A3cNEeW2AoEAbbWdmA"/>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_PdXMWncNEeW2AoEAbbWdmA" isExpanded="true" previousWidth="200.0" previousHeight="20.0" featureName="ownedAttribute">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tu4eHcREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__tu4fHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tu4encREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tu4e3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBs8aHcTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBs8bHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBs8ancTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBs8a3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tu4eXcREeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="46.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBs8aXcTEeW2AoEAbbWdmA" x="1.0" y="30.0" width="118.0" height="46.0"/>
       <ownedShape xsi:type="umldi:UMLShape" xmi:id="_PdXzY3cNEeW2AoEAbbWdmA">
-        <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tu4fncREeW2AoEAbbWdmA">
-          <fillColor xsi:type="DC:Color" xmi:id="__tu4gncREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-          <strokeColor xsi:type="DC:Color" xmi:id="__tu4gHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-          <fontColor xsi:type="DC:Color" xmi:id="__tu4gXcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBs8bncTEeW2AoEAbbWdmA">
+          <fillColor xsi:type="DC:Color" xmi:id="_PBtjYncTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+          <strokeColor xsi:type="DC:Color" xmi:id="_PBtjYHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+          <fontColor xsi:type="DC:Color" xmi:id="_PBtjYXcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
         </localStyle>
-        <bounds xsi:type="DC:Bounds" xmi:id="__tu4f3cREeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
+        <bounds xsi:type="DC:Bounds" xmi:id="_PBs8b3cTEeW2AoEAbbWdmA" x="1.0" y="15.0" width="115.0" height="20.0"/>
         <umlElement xsi:type="uml:Property" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PdkAq3cNEeW2AoEAbbWdmA"/>
       </ownedShape>
     </ownedCompartment>
     <ownedCompartment xsi:type="umldi:UMLCompartment" xmi:id="_x8hIIncNEeW2AoEAbbWdmA" isExpanded="true" featureName="characteristicDefinition">
-      <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tu4hHcREeW2AoEAbbWdmA">
-        <fillColor xsi:type="DC:Color" xmi:id="__tu4iHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-        <strokeColor xsi:type="DC:Color" xmi:id="__tu4hncREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-        <fontColor xsi:type="DC:Color" xmi:id="__tu4h3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBtjZHcTEeW2AoEAbbWdmA">
+        <fillColor xsi:type="DC:Color" xmi:id="_PBtjaHcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+        <strokeColor xsi:type="DC:Color" xmi:id="_PBtjZncTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+        <fontColor xsi:type="DC:Color" xmi:id="_PBtjZ3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
       </localStyle>
-      <bounds xsi:type="DC:Bounds" xmi:id="__tu4hXcREeW2AoEAbbWdmA" x="1.0" y="76.0" width="118.0" height="25.0"/>
+      <bounds xsi:type="DC:Bounds" xmi:id="_PBtjZXcTEeW2AoEAbbWdmA" x="1.0" y="76.0" width="118.0" height="25.0"/>
     </ownedCompartment>
   </ownedUmlDiagramElement>
   <ownedUmlDiagramElement xsi:type="umldi:UMLEdge" xmi:id="_PdYacncNEeW2AoEAbbWdmA" sourceShape="_38ZHQ3cKEeW2AoEAbbWdmA" targetShape="_PdXMU3cNEeW2AoEAbbWdmA">
-    <localStyle xsi:type="umldi:UMLStyle" xmi:id="__tu4incREeW2AoEAbbWdmA">
-      <fillColor xsi:type="DC:Color" xmi:id="__tvfgHcREeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
-      <strokeColor xsi:type="DC:Color" xmi:id="__tu4i3cREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
-      <fontColor xsi:type="DC:Color" xmi:id="__tu4jHcREeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+    <localStyle xsi:type="umldi:UMLStyle" xmi:id="_PBtjancTEeW2AoEAbbWdmA">
+      <fillColor xsi:type="DC:Color" xmi:id="_PBtjbXcTEeW2AoEAbbWdmA" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" xmi:id="_PBtja3cTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" xmi:id="_PBtjbHcTEeW2AoEAbbWdmA" red="0" green="0" blue="0"/>
     </localStyle>
-    <waypoint xsi:type="DC:Point" xmi:id="__txUsHcREeW2AoEAbbWdmA" x="540.0" y="520.0"/>
-    <waypoint xsi:type="DC:Point" xmi:id="__txUsXcREeW2AoEAbbWdmA" x="915.0" y="478.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBvYkncTEeW2AoEAbbWdmA" x="540.0" y="520.0"/>
+    <waypoint xsi:type="DC:Point" xmi:id="_PBvYk3cTEeW2AoEAbbWdmA" x="915.0" y="478.0"/>
     <umlElement xsi:type="uml:Association" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/library/EconomicCollaborationLibrary.vdcol#_PdkArHcNEeW2AoEAbbWdmA"/>
   </ownedUmlDiagramElement>
 </umldi:UMLDiagram>
