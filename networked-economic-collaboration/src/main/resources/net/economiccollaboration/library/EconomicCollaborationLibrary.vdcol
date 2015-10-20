@@ -11,6 +11,8 @@
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_111F7F15-8AA7-48BF-843D-0EF7B4970615trait"/>
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_3E4808A7-63C8-473C-A4BB-0775E90498A3trait"/>
       </businessItemLibraryElement>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="ShoppingBasket" id="_PddS9XcNEeW2AoEAbbWdmABusinessItemDefinition"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="ProductUnitOfMeasurement" id="_Pdd6A3cNEeW2AoEAbbWdmABusinessItemDefinition"/>
     </businessItemLibrary>
     <collaboration xsi:type="VDML:BusinessNetwork" name="EconomicCollaborationLibrary" id="EconomicCollaborationLibrary"/>
     <storeLibrary xsi:type="VDML:StoreLibrary" name="economiccollaborationlibrary" id="_moHjEHcKEeW2AoEAbbWdmAbil"/>
@@ -18,8 +20,8 @@
   <uml:Package xmi:id="_moHjEHcKEeW2AoEAbbWdmA" name="economiccollaborationlibrary">
     <packagedElement xsi:type="uml:Class" xmi:id="_38tQUHcKEeW2AoEAbbWdmA" name="Order">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_38tQUHcKEeW2AoEAbbWdmABusinessItemDefinition"/>
-      <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI0HcKEeW2AoEAbbWdmA" name="end2Name" type="_38t3YXcKEeW2AoEAbbWdmA" aggregation="composite" association="_38yI2ncKEeW2AoEAbbWdmA">
-        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_38yI0XcKEeW2AoEAbbWdmA" value="1"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI0HcKEeW2AoEAbbWdmA" name="lineItems" type="_38t3YXcKEeW2AoEAbbWdmA" aggregation="composite" association="_38yI2ncKEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_38yI0XcKEeW2AoEAbbWdmA" value="*"/>
         <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_38yI0ncKEeW2AoEAbbWdmA"/>
       </ownedAttribute>
       <ownedAttribute xsi:type="uml:Property" xmi:id="_NSKVgHcMEeW2AoEAbbWdmA" name="OrderPrice">
@@ -27,9 +29,17 @@
           <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_F10D2AB7-47A3-4F93-BCFA-8D3E7250B991trait"/>
         </eAnnotations>
       </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAoHcNEeW2AoEAbbWdmA" name="shoppingBasket" type="_PddS9XcNEeW2AoEAbbWdmA" association="_PdkAqncNEeW2AoEAbbWdmA"/>
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_38t3YHcKEeW2AoEAbbWdmA" name="Product">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_38t3YHcKEeW2AoEAbbWdmABusinessItemDefinition"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAoXcNEeW2AoEAbbWdmA" name="name">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_nOT-cMGyEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAoncNEeW2AoEAbbWdmA" name="unitOfMeasure" type="_Pdd6A3cNEeW2AoEAbbWdmA" association="_PdkArHcNEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_PdkAo3cNEeW2AoEAbbWdmA" value="1"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_PdkApHcNEeW2AoEAbbWdmA"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_38t3YXcKEeW2AoEAbbWdmA" name="LineItem">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_38t3YXcKEeW2AoEAbbWdmABusinessItemDefinition"/>
@@ -39,9 +49,9 @@
         </eAnnotations>
         <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
       </ownedAttribute>
-      <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI1HcKEeW2AoEAbbWdmA" name="end2Name" type="_38t3YHcKEeW2AoEAbbWdmA" association="_38yI2HcKEeW2AoEAbbWdmA">
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI1HcKEeW2AoEAbbWdmA" name="selectedProduct" type="_38t3YHcKEeW2AoEAbbWdmA" association="_38yI2HcKEeW2AoEAbbWdmA">
         <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_38yI1XcKEeW2AoEAbbWdmA" value="1"/>
-        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_38yI1ncKEeW2AoEAbbWdmA"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_38yI1ncKEeW2AoEAbbWdmA" value="1"/>
       </ownedAttribute>
       <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI13cKEeW2AoEAbbWdmA" name="order" type="_38tQUHcKEeW2AoEAbbWdmA" association="_38yI2ncKEeW2AoEAbbWdmA"/>
       <ownedAttribute xsi:type="uml:Property" xmi:id="_fWKGcHcMEeW2AoEAbbWdmA" name="LineItemPrice">
@@ -56,6 +66,32 @@
     </packagedElement>
     <packagedElement xsi:type="uml:Association" xmi:id="_38yI2ncKEeW2AoEAbbWdmA" memberEnd="_38yI13cKEeW2AoEAbbWdmA _38yI0HcKEeW2AoEAbbWdmA">
       <name xsi:nil="true"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_PddS9XcNEeW2AoEAbbWdmA" name="ShoppingBasket">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_PddS9XcNEeW2AoEAbbWdmABusinessItemDefinition"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkApXcNEeW2AoEAbbWdmA" name="dateTimeCreated">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_R872EMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkApncNEeW2AoEAbbWdmA" name="dateTimeSubmitted">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_R872EMGzEeSOM_pby657_g"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAp3cNEeW2AoEAbbWdmA" name="orders" type="_38tQUHcKEeW2AoEAbbWdmA" aggregation="composite" association="_PdkAqncNEeW2AoEAbbWdmA">
+        <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_PdkAqHcNEeW2AoEAbbWdmA" value="*"/>
+        <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_PdkAqXcNEeW2AoEAbbWdmA"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_PdkAqncNEeW2AoEAbbWdmA" memberEnd="_PdkAoHcNEeW2AoEAbbWdmA _PdkAp3cNEeW2AoEAbbWdmA">
+      <name xsi:nil="true"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_Pdd6A3cNEeW2AoEAbbWdmA" name="ProductUnitOfMeasurement">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_Pdd6A3cNEeW2AoEAbbWdmABusinessItemDefinition"/>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAq3cNEeW2AoEAbbWdmA" name="name">
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_nOT-cMGyEeSOM_pby657_g"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Association" xmi:id="_PdkArHcNEeW2AoEAbbWdmA" memberEnd="_PdkArXcNEeW2AoEAbbWdmA _PdkAoncNEeW2AoEAbbWdmA">
+      <name xsi:nil="true"/>
+      <ownedEnd xsi:type="uml:Property" xmi:id="_PdkArXcNEeW2AoEAbbWdmA" name="product" type="_38t3YHcKEeW2AoEAbbWdmA" association="_PdkArHcNEeW2AoEAbbWdmA"/>
     </packagedElement>
   </uml:Package>
 </xmi:XMI>
