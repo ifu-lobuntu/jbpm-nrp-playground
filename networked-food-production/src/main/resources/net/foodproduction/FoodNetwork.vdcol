@@ -8,18 +8,22 @@
     <collaboration xsi:type="VDML:OrgUnit" name="FoodNetwork" id="FoodNetwork">
       <activity xsi:type="VDML:Activity" name="ProvideFreshProduce" id="_qIEkIXb8EeW2AoEAbbWdmA" performingRole="_9DEE4075-C7F0-4FBA-9ED2-D2E6C04E781F">
         <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="_qIEkInb8EeW2AoEAbbWdmA"/>
-        <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="_LhDIwXcCEeW2AoEAbbWdmA" output="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
-        <containedPort xsi:type="VDML:InputPort" name="OrderFromConsumer" id="_LhDIwncCEeW2AoEAbbWdmA" input="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
+        <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="_LhDIwXcCEeW2AoEAbbWdmA"/>
+        <containedPort xsi:type="VDML:InputPort" name="OrderFromConsumer" id="_LhDIwncCEeW2AoEAbbWdmA"/>
+        <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="__VQSkHcHEeW2AoEAbbWdmA" output="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
+        <containedPort xsi:type="VDML:InputPort" name="OrderFromConsumer" id="__VQSkXcHEeW2AoEAbbWdmA" input="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
       </activity>
       <activity xsi:type="VDML:Activity" name="CollectFreshProduce" id="_qIEkI3b8EeW2AoEAbbWdmA" performingRole="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4">
         <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="_qIEkJHb8EeW2AoEAbbWdmA"/>
-        <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="_LhDIw3cCEeW2AoEAbbWdmA" input="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
+        <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="_LhDIw3cCEeW2AoEAbbWdmA"/>
+        <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="__VQSkncHEeW2AoEAbbWdmA" input="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
       </activity>
       <activity xsi:type="VDML:Activity" name="OrderFreshProduce" id="_LhDIxHcCEeW2AoEAbbWdmA" performingRole="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4">
-        <containedPort xsi:type="VDML:OutputPort" name="OrderToFarmer" id="_LhDIxXcCEeW2AoEAbbWdmA" output="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
+        <containedPort xsi:type="VDML:OutputPort" name="OrderToFarmer" id="_LhDIxXcCEeW2AoEAbbWdmA"/>
+        <containedPort xsi:type="VDML:OutputPort" name="OrderToFarmer" id="__VQSk3cHEeW2AoEAbbWdmA" output="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
       </activity>
-      <flow xsi:type="VDML:DeliverableFlow" name="FreshProduce" id="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1" recipient="_LhDIw3cCEeW2AoEAbbWdmA" deliverable="_qIFLMHb8EeW2AoEAbbWdmA" provider="_LhDIwXcCEeW2AoEAbbWdmA"/>
-      <flow xsi:type="VDML:DeliverableFlow" name="Order" id="_487BE006-AC6B-4385-A7DE-4B133EE70090" recipient="_LhDIwncCEeW2AoEAbbWdmA" deliverable="_LhDIxncCEeW2AoEAbbWdmA" provider="_LhDIxXcCEeW2AoEAbbWdmA"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="FreshProduce" id="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1" recipient="__VQSkncHEeW2AoEAbbWdmA" deliverable="_qIFLMHb8EeW2AoEAbbWdmA" provider="__VQSkHcHEeW2AoEAbbWdmA"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Order" id="_487BE006-AC6B-4385-A7DE-4B133EE70090" recipient="__VQSkXcHEeW2AoEAbbWdmA" deliverable="_LhDIxncCEeW2AoEAbbWdmA" provider="__VQSk3cHEeW2AoEAbbWdmA"/>
       <businessItem xsi:type="VDML:BusinessItem" name="FreshProduce" id="_qIFLMHb8EeW2AoEAbbWdmA" definition="_qIEkIHb8EeW2AoEAbbWdmA" flow="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
       <businessItem xsi:type="VDML:BusinessItem" name="Order" id="_LhDIxncCEeW2AoEAbbWdmA" definition="_LhDIwHcCEeW2AoEAbbWdmA" flow="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
       <position xsi:type="VDML:Position" name="Farmer" id="_9DEE4075-C7F0-4FBA-9ED2-D2E6C04E781F" performedWork="_qIEkIXb8EeW2AoEAbbWdmA"/>
