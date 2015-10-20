@@ -28,6 +28,7 @@
         <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
           <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_F10D2AB7-47A3-4F93-BCFA-8D3E7250B991trait"/>
         </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
       </ownedAttribute>
       <ownedAttribute xsi:type="uml:Property" xmi:id="_PdkAoHcNEeW2AoEAbbWdmA" name="shoppingBasket" type="_PddS9XcNEeW2AoEAbbWdmA" association="_PdkAqncNEeW2AoEAbbWdmA"/>
     </packagedElement>
@@ -58,6 +59,7 @@
         <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
           <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_3E4808A7-63C8-473C-A4BB-0775E90498A3trait"/>
         </eAnnotations>
+        <type xsi:type="uml:PrimitiveType" href="pathmap://jbpm-cmmn/libraries/cmmntypes.uml#_Lr8ZIMGzEeSOM_pby657_g"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xsi:type="uml:Association" xmi:id="_38yI2HcKEeW2AoEAbbWdmA" memberEnd="_38yI2XcKEeW2AoEAbbWdmA _38yI1HcKEeW2AoEAbbWdmA">
