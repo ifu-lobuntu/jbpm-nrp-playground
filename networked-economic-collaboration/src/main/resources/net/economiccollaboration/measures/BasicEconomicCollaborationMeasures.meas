@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ASCII"?>
+<SMM:MeasureLibrary xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SMM="http://www.omg.org/spec/SMM/20150201/SMM.cmof" xmlns:smmdi="http://www.omg.org/spec/SMM/20150201/DI" xmi:id="networked-economic-collaboration.BasicEconomicCollaborationMeasures" name="networked-economic-collaboration.BasicEconomicCollaborationMeasures">
+  <ownedDiagram xsi:type="smmdi:SMMDiagram" xmi:id="_mg4zUHcCEeW2AoEAbbWdmA" smmElement="networked-economic-collaboration.BasicEconomicCollaborationMeasures"/>
+</SMM:MeasureLibrary>
