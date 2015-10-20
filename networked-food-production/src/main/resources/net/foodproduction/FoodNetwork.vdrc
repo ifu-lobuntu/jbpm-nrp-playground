@@ -6,22 +6,33 @@
     <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
   </localStyle>
   <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/FoodNetwork.vdcol#FoodNetwork"/>
-  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_IIKwIHb8EeW2AoEAbbWdmA">
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_qHRS4Hb8EeW2AoEAbbWdmA">
     <localStyle xsi:type="vdmldi:VDMLStyle">
       <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
       <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
       <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" x="141.0" y="90.0" width="200.0" height="100.0"/>
+    <bounds xsi:type="DC:Bounds" x="90.0" y="75.0" width="200.0" height="100.0"/>
     <vdmlElement xsi:type="VDML:Position" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/FoodNetwork.vdcol#_9DEE4075-C7F0-4FBA-9ED2-D2E6C04E781F"/>
   </ownedVdmlDiagramElement>
-  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_IILXMHb8EeW2AoEAbbWdmA">
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_qHRS4Xb8EeW2AoEAbbWdmA">
     <localStyle xsi:type="vdmldi:VDMLStyle">
       <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
       <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
       <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
     </localStyle>
-    <bounds xsi:type="DC:Bounds" x="473.0" y="90.0" width="200.0" height="100.0"/>
+    <bounds xsi:type="DC:Bounds" x="630.0" y="120.0" width="200.0" height="100.0"/>
     <vdmlElement xsi:type="VDML:Position" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/FoodNetwork.vdcol#_C2DB0D5E-F065-4364-9245-FEC2D2C666F4"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLEdge" id="_qHR58Hb8EeW2AoEAbbWdmA" sourceShape="_qHRS4Hb8EeW2AoEAbbWdmA" targetShape="_qHRS4Xb8EeW2AoEAbbWdmA">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <waypoint xsi:type="DC:Point" x="190.0" y="125.0"/>
+    <waypoint xsi:type="DC:Point" x="465.0" y="94.0"/>
+    <waypoint xsi:type="DC:Point" x="730.0" y="170.0"/>
+    <vdmlElement xsi:type="VDML:DeliverableFlow" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/FoodNetwork.vdcol#_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
   </ownedVdmlDiagramElement>
 </vdmldi:VDMLDiagram>
