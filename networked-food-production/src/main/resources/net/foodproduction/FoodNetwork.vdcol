@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
   <VDML:ValueDeliveryModel name="FoodNetworkValueDeliveryModel">
-    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
+    <capabilitylibrary xsi:type="VDML:CapabilityLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAcl"/>
+    <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="FreshProduce" id="_qIEkIHb8EeW2AoEAbbWdmA"/>
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Order" id="_LhDIwHcCEeW2AoEAbbWdmA"/>
     </businessItemLibrary>
@@ -29,6 +30,9 @@
       <position xsi:type="VDML:Position" name="Farmer" id="_9DEE4075-C7F0-4FBA-9ED2-D2E6C04E781F" performedWork="_qIEkIXb8EeW2AoEAbbWdmA"/>
       <position xsi:type="VDML:Position" name="Consumer" id="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4" performedWork="_qIEkI3b8EeW2AoEAbbWdmA _LhDIxHcCEeW2AoEAbbWdmA"/>
     </collaboration>
+    <storeLibrary xsi:type="VDML:StoreLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
+      <storeDefinitions xsi:type="VDML:StoreDefinition" name="Garden" id="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition"/>
+    </storeLibrary>
   </VDML:ValueDeliveryModel>
   <uml:Package xmi:id="_0SlFwHb7EeW2AoEAbbWdmA" name="foodnetwork">
     <packagedElement xsi:type="uml:Class" xmi:id="_qIFLMXb8EeW2AoEAbbWdmA" name="FreshProduce">
@@ -36,6 +40,9 @@
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_LhDIx3cCEeW2AoEAbbWdmA" name="Order">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_LhDIwHcCEeW2AoEAbbWdmA"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_3X0ssHctEeWYt_8hY_ngHA" name="Garden">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition"/>
     </packagedElement>
   </uml:Package>
 </xmi:XMI>
