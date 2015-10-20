@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="OrderFreshProducevdanDiagram">
+<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DC="http://www.omg.org/spec/DD/20131001/DC" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="OrderFreshProducevdanDiagram">
+  <localStyle xsi:type="vdmldi:VDMLStyle"/>
   <vdmlElement xsi:type="VDML:CapabilityMethod" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#OrderFreshProduce"/>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_miS6AHctEeWYt_8hY_ngHA">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="10.0" width="570.0" height="250.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#_4D2BA55A-E03C-47EB-A40D-B7D6B5DB568C"/>
+  </ownedVdmlDiagramElement>
+  <ownedVdmlDiagramElement xsi:type="vdmldi:VDMLShape" id="_miThEHctEeWYt_8hY_ngHA">
+    <localStyle xsi:type="vdmldi:VDMLStyle">
+      <fillColor xsi:type="DC:Color" red="255" green="255" blue="255"/>
+      <strokeColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+      <fontColor xsi:type="DC:Color" red="0" green="0" blue="0"/>
+    </localStyle>
+    <bounds xsi:type="DC:Bounds" x="30.0" y="270.0" width="570.0" height="250.0"/>
+    <vdmlElement xsi:type="VDML:Performer" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#_58341825-2CB8-445F-A4C0-3391F877ECFD"/>
+  </ownedVdmlDiagramElement>
 </vdmldi:VDMLDiagram>
