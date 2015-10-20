@@ -3,7 +3,9 @@
   <VDML:ValueDeliveryModel name="EconomicCollaborationLibraryValueDeliveryModel">
     <capabilitylibrary xsi:type="VDML:CapabilityLibrary" name="economiccollaborationlibrary" id="_moHjEHcKEeW2AoEAbbWdmAcl"/>
     <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" name="economiccollaborationlibrary" id="_moHjEHcKEeW2AoEAbbWdmAbil">
-      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Order" id="_38tQUHcKEeW2AoEAbbWdmABusinessItemDefinition"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Order" id="_38tQUHcKEeW2AoEAbbWdmABusinessItemDefinition">
+        <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_F10D2AB7-47A3-4F93-BCFA-8D3E7250B991trait"/>
+      </businessItemLibraryElement>
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Product" id="_38t3YHcKEeW2AoEAbbWdmABusinessItemDefinition"/>
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="LineItem" id="_38t3YXcKEeW2AoEAbbWdmABusinessItemDefinition">
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_111F7F15-8AA7-48BF-843D-0EF7B4970615trait"/>
@@ -18,6 +20,11 @@
       <ownedAttribute xsi:type="uml:Property" xmi:id="_38yI0HcKEeW2AoEAbbWdmA" name="end2Name" type="_38t3YXcKEeW2AoEAbbWdmA" aggregation="composite" association="_38yI2ncKEeW2AoEAbbWdmA">
         <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_38yI0XcKEeW2AoEAbbWdmA" value="1"/>
         <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_38yI0ncKEeW2AoEAbbWdmA"/>
+      </ownedAttribute>
+      <ownedAttribute xsi:type="uml:Property" xmi:id="_NSKVgHcMEeW2AoEAbbWdmA" name="OrderPrice">
+        <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib">
+          <references xsi:type="SMM:Characteristic" href="platform:/resource/networked-economic-collaboration/src/main/resources/net/economiccollaboration/measures/BasicEconomicCollaborationMeasures.meas#_F10D2AB7-47A3-4F93-BCFA-8D3E7250B991trait"/>
+        </eAnnotations>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xsi:type="uml:Class" xmi:id="_38t3YHcKEeW2AoEAbbWdmA" name="Product">
