@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vdmldi:VDMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VDML="http://www.omg.org/spec/VDML/20150201/vdml.xmi" xmlns:vdmldi="http://www.omg.org/spec/VDML/20131201/DI" id="FoodNetworkvdrcDiagram">
+  <vdmlElement xsi:type="VDML:OrgUnit" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/FoodNetwork.vdcol#FoodNetwork"/>
+</vdmldi:VDMLDiagram>
