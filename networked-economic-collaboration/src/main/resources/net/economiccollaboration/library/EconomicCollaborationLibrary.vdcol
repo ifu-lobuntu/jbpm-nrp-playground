@@ -15,7 +15,9 @@
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="ProductUnitOfMeasurement" id="_Pdd6A3cNEeW2AoEAbbWdmABusinessItemDefinition"/>
     </businessItemLibrary>
     <collaboration xsi:type="VDML:BusinessNetwork" name="EconomicCollaborationLibrary" id="EconomicCollaborationLibrary"/>
-    <storeLibrary xsi:type="VDML:StoreLibrary" name="economiccollaborationlibrary" id="_moHjEHcKEeW2AoEAbbWdmAbil"/>
+    <storeLibrary xsi:type="VDML:StoreLibrary" name="economiccollaborationlibrary" id="_moHjEHcKEeW2AoEAbbWdmAbil">
+      <storeDefinitions xsi:type="VDML:StoreDefinition" name="Account" id="_c8-0UncnEeWYt_8hY_ngHAStoreDefinition"/>
+    </storeLibrary>
   </VDML:ValueDeliveryModel>
   <uml:Package xmi:id="_moHjEHcKEeW2AoEAbbWdmA" name="economiccollaborationlibrary">
     <packagedElement xsi:type="uml:Class" xmi:id="_38tQUHcKEeW2AoEAbbWdmA" name="Order">
@@ -106,6 +108,9 @@
         <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_SHMbtncVEeW2AoEAbbWdmA" value="*"/>
         <lowerValue xsi:type="uml:LiteralInteger" xmi:id="_SHMbt3cVEeW2AoEAbbWdmA"/>
       </ownedEnd>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_c8-0UncnEeWYt_8hY_ngHA" name="Account">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_c8-0UncnEeWYt_8hY_ngHAStoreDefinition"/>
     </packagedElement>
   </uml:Package>
 </xmi:XMI>
