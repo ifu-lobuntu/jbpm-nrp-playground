@@ -31,7 +31,12 @@
       <position xsi:type="VDML:Position" name="Consumer" id="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4" performedWork="_qIEkI3b8EeW2AoEAbbWdmA _LhDIxHcCEeW2AoEAbbWdmA"/>
     </collaboration>
     <storeLibrary xsi:type="VDML:StoreLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
-      <storeDefinitions xsi:type="VDML:StoreDefinition" name="Garden" id="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition"/>
+      <storeDefinitions xsi:type="VDML:StoreDefinition" name="Garden" id="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition">
+        <exchangeConfiguration xsi:type="VDML:ExchangeConfiguration">
+          <exchangeMethod xsi:type="VDML:CapabilityMethod" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#OrderFreshProduce"/>
+          <supplierRole xsi:type="VDML:Performer" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/order/OrderFreshProduce.vdcol#_58341825-2CB8-445F-A4C0-3391F877ECFD"/>
+        </exchangeConfiguration>
+      </storeDefinitions>
     </storeLibrary>
   </VDML:ValueDeliveryModel>
   <uml:Package xmi:id="_0SlFwHb7EeW2AoEAbbWdmA" name="foodnetwork">
