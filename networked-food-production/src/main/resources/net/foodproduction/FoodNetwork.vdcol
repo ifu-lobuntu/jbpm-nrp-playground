@@ -3,23 +3,35 @@
   <VDML:ValueDeliveryModel name="FoodNetworkValueDeliveryModel">
     <businessItemLibrary xsi:type="VDML:BusinessItemLibrary" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
       <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="FreshProduce" id="_qIEkIHb8EeW2AoEAbbWdmA"/>
+      <businessItemLibraryElement xsi:type="VDML:BusinessItemDefinition" name="Order" id="_LhDIwHcCEeW2AoEAbbWdmA"/>
     </businessItemLibrary>
     <collaboration xsi:type="VDML:OrgUnit" name="FoodNetwork" id="FoodNetwork">
       <activity xsi:type="VDML:Activity" name="ProvideFreshProduce" id="_qIEkIXb8EeW2AoEAbbWdmA" performingRole="_9DEE4075-C7F0-4FBA-9ED2-D2E6C04E781F">
-        <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="_qIEkInb8EeW2AoEAbbWdmA" output="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
+        <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="_qIEkInb8EeW2AoEAbbWdmA"/>
+        <containedPort xsi:type="VDML:OutputPort" name="FreshProduceToConsumer" id="_LhDIwXcCEeW2AoEAbbWdmA" output="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
+        <containedPort xsi:type="VDML:InputPort" name="OrderFromConsumer" id="_LhDIwncCEeW2AoEAbbWdmA" input="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
       </activity>
       <activity xsi:type="VDML:Activity" name="CollectFreshProduce" id="_qIEkI3b8EeW2AoEAbbWdmA" performingRole="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4">
-        <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="_qIEkJHb8EeW2AoEAbbWdmA" input="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
+        <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="_qIEkJHb8EeW2AoEAbbWdmA"/>
+        <containedPort xsi:type="VDML:InputPort" name="FreshProduceFromFarmer" id="_LhDIw3cCEeW2AoEAbbWdmA" input="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
       </activity>
-      <flow xsi:type="VDML:DeliverableFlow" name="FreshProduce" id="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1" recipient="_qIEkJHb8EeW2AoEAbbWdmA" deliverable="_qIFLMHb8EeW2AoEAbbWdmA" provider="_qIEkInb8EeW2AoEAbbWdmA"/>
+      <activity xsi:type="VDML:Activity" name="OrderFreshProduce" id="_LhDIxHcCEeW2AoEAbbWdmA" performingRole="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4">
+        <containedPort xsi:type="VDML:OutputPort" name="OrderToFarmer" id="_LhDIxXcCEeW2AoEAbbWdmA" output="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
+      </activity>
+      <flow xsi:type="VDML:DeliverableFlow" name="FreshProduce" id="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1" recipient="_LhDIw3cCEeW2AoEAbbWdmA" deliverable="_qIFLMHb8EeW2AoEAbbWdmA" provider="_LhDIwXcCEeW2AoEAbbWdmA"/>
+      <flow xsi:type="VDML:DeliverableFlow" name="Order" id="_487BE006-AC6B-4385-A7DE-4B133EE70090" recipient="_LhDIwncCEeW2AoEAbbWdmA" deliverable="_LhDIxncCEeW2AoEAbbWdmA" provider="_LhDIxXcCEeW2AoEAbbWdmA"/>
       <businessItem xsi:type="VDML:BusinessItem" name="FreshProduce" id="_qIFLMHb8EeW2AoEAbbWdmA" definition="_qIEkIHb8EeW2AoEAbbWdmA" flow="_536EDBB0-E041-49B0-AAE9-01869FFC0EA1"/>
+      <businessItem xsi:type="VDML:BusinessItem" name="Order" id="_LhDIxncCEeW2AoEAbbWdmA" definition="_LhDIwHcCEeW2AoEAbbWdmA" flow="_487BE006-AC6B-4385-A7DE-4B133EE70090"/>
       <position xsi:type="VDML:Position" name="Farmer" id="_9DEE4075-C7F0-4FBA-9ED2-D2E6C04E781F" performedWork="_qIEkIXb8EeW2AoEAbbWdmA"/>
-      <position xsi:type="VDML:Position" name="Consumer" id="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4" performedWork="_qIEkI3b8EeW2AoEAbbWdmA"/>
+      <position xsi:type="VDML:Position" name="Consumer" id="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4" performedWork="_qIEkI3b8EeW2AoEAbbWdmA _LhDIxHcCEeW2AoEAbbWdmA"/>
     </collaboration>
   </VDML:ValueDeliveryModel>
   <uml:Package xmi:id="_0SlFwHb7EeW2AoEAbbWdmA" name="foodnetwork">
     <packagedElement xsi:type="uml:Class" xmi:id="_qIFLMXb8EeW2AoEAbbWdmA" name="FreshProduce">
       <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_qIEkIHb8EeW2AoEAbbWdmA"/>
+    </packagedElement>
+    <packagedElement xsi:type="uml:Class" xmi:id="_LhDIx3cCEeW2AoEAbbWdmA" name="Order">
+      <eAnnotations xsi:type="ecore:EAnnotation" source="http://www.omg.org/spec/VDML/20150201/vdml.xmi/lib" references="_LhDIwHcCEeW2AoEAbbWdmA"/>
     </packagedElement>
   </uml:Package>
 </xmi:XMI>
