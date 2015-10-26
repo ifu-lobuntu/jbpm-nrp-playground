@@ -16,7 +16,7 @@
     </businessItemLibrary>
     <collaboration xsi:type="VDML:BusinessNetwork" name="EconomicCollaborationLibrary" id="EconomicCollaborationLibrary"/>
     <storeLibrary xsi:type="VDML:StoreLibrary" name="economiccollaborationlibrary" id="_moHjEHcKEeW2AoEAbbWdmAbil">
-      <storeDefinitions xsi:type="VDML:StoreDefinition" name="Account" id="_c8-0UncnEeWYt_8hY_ngHAStoreDefinition"/>
+      <storeLibraryElement xsi:type="VDML:StoreDefinition" name="Account" id="_c8-0UncnEeWYt_8hY_ngHAStoreDefinition"/>
     </storeLibrary>
   </VDML:ValueDeliveryModel>
   <uml:Package xmi:id="_moHjEHcKEeW2AoEAbbWdmA" name="economiccollaborationlibrary">

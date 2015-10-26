@@ -33,7 +33,7 @@
       <position xsi:type="VDML:Position" name="Consumer" id="_C2DB0D5E-F065-4364-9245-FEC2D2C666F4" performedWork="_qIEkI3b8EeW2AoEAbbWdmA _LhDIxHcCEeW2AoEAbbWdmA"/>
     </collaboration>
     <storeLibrary xsi:type="VDML:StoreLibrary" name="foodnetwork" id="_0SlFwHb7EeW2AoEAbbWdmAbil">
-      <storeDefinitions xsi:type="VDML:StoreDefinition" name="Garden" id="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition">
+      <storeLibraryElement xsi:type="VDML:StoreDefinition" name="Garden" id="_3X0ssHctEeWYt_8hY_ngHAStoreDefinition">
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_4A2278DC-D368-4751-8FB6-F63ACA6B8C4Dtrait"/>
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_421E80F4-1C64-484F-8A91-AED0778F2AC2trait"/>
         <characteristicDefinition xsi:type="SMM:Characteristic" href="platform:/resource/networked-food-production/src/main/resources/net/foodproduction/measures/FoodNetworkMeasures.meas#_AFC55443-B52F-4BF5-B1C2-F14D2CC9510Ftrait"/>
